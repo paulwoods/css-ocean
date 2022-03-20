@@ -2,7 +2,7 @@
 *::before,
 *::after {
     font-family: 'Open Sans', sans-serif;
-    user-select: none;
+    /* user-select: none; */
 }
 
 body {
@@ -21,11 +21,11 @@ body {
 }
 
 footer {
-    visibility: hidden;
-    /* position: absolute;
-    bottom: 2rem;
+    position: absolute;
+    top: 1vh;
     width: 100%;
-    text-align: center; */
+    text-align: center;
+    z-index: 200;
 }
 
 .logo::before {
